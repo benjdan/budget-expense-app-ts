@@ -21,8 +21,8 @@ This is a **complete application** with backend integration, authentication, and
 ## 🧠 What You’ll Learn
 
 - Implement authentication & email verification
-- Build a full app with **React Native**
-- Manage state and navigation using **React Navigation**
+- Build a full app with **React Native** and **Typescript**
+- Manage state and navigation using **React Navigation** and with **Router File base**
 - Deploy with cloud-based tools
 - Beginner-friendly for first-time React Native devs
 
