@@ -11,19 +11,20 @@
     "lint": "npm run lint"
   },
   "dependencies": {
-    "@react-navigation/bottom-tabs": "^7.3.10",
-    "@react-navigation/elements": "^2.3.8",
-    "@react-navigation/native": "^7.1.6",
+    "@clerk/clerk-expo": "^2.19.30",
+    "@react-navigation/bottom-tabs": "^7.15.5",
+    "@react-navigation/elements": "^2.9.10",
+    "@react-navigation/native": "^7.1.33",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-native": "0.81.5",
-    "react-native-gesture-handler": "~2.29.0",
+    "react-native-gesture-handler": "~2.30.0",
     "react-native-keyboard-aware-scroll-view": "^0.9.5",
-    "react-native-reanimated": "~4.2.0",
+    "react-native-reanimated": "~4.2.2",
     "react-native-safe-area-context": "5.7.0",
-    "react-native-screens": "~4.16.0",
+    "react-native-screens": "~4.24.0",
     "react-native-web": "~0.21.0",
-    "react-native-webview": "13.15.0"
+    "react-native-webview": "13.16.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
