@@ -1,3 +1,4 @@
+import { LanguageProvider } from '@/context/LanguageContext';
 import { Redirect, Stack } from "expo-router";
 import { useAuth } from "@clerk/clerk-expo";
 
@@ -6,5 +7,5 @@ export default function AuthRoutesLayout() {
 
   if (isSignedIn) return <Redirect href={"/"} />;
 
-  return <Stack screenOptions={{ headerShown: false }} />;
+  return ( <LanguageProvider><Stack screenOptions={{ headerShown: false }} /></LanguageProvider> );
 }
